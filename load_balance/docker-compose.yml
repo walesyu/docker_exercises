@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  web1:
+    build: ./web1
+    networks:
+      my_net:
+        ipv4_address: 192.168.251.2
+  web2:
+    build: ./web2
+    networks:
+      my_net:
+        ipv4_address: 192.168.251.3
+  lb:
+    build: ./lb
+    expose:
+      - "80"
+    ports:
+      - "8080:80"
+    networks:
+      my_net:
+        ipv4_address: 192.168.251.100
+    depends_on:
+      - web1
+      - web2
+networks:
+  my_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        -
+          subnet: 192.168.251.0/24
