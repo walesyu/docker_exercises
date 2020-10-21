@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6dddff3-5113-42f0-80bd-5b38d1957ee9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load_balance/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load_balance/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load_balance/lb/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load_balance/lb/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load_balance/web1/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load_balance/web1/sample/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load_balance/web2/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load_balance/web2/sample/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/install/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image001.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image001.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image003.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image005.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image005.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image007.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image007.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image009.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image011.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image011.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image013.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image013.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image015.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image015.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image017.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image017.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image019.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image019.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/media/image021.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.install/media/image021.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_balance/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_balance/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_balance/lb/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_balance/lb/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_balance/web1/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_balance/web1/sample/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_balance/web2/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_balance/web2/sample/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
