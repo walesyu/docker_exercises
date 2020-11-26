@@ -1,13 +1,17 @@
 關於docker image的基礎指令
 ---
+
 ## 目的 
 了解docker image的基本操作
-##docker image的用途
+
+## docker image的特性
  - 我們可以試著將docker image當作是用來開機的live cd，每個docker image都會預先安裝好一些可以執行的軟體讓我們直接使用。
  - 使用者還可以利用某個image為基礎，使用Dockerfile這個檔案建立屬於自己的image。
    例如我們可以使用ubuntu的image為基礎，自由地加上nginx, mysql等軟體，並編譯出一個符合自己需求的影像檔。
  - 編譯好的docker image是唯讀的
+ 
 ## 常用指令 
+
 ### 查看本地的docker images
 - 執行
 ```docker
@@ -24,6 +28,7 @@ hello-world         latest              bf756fb1ae65        9 months ago        
   - IMAGE ID: image建立後自動產生的號碼，可以明確標示本地image的惟一值
   - CREATED: 該image建立的時間
   - SIZE: 檔案大小
+  
 ### 從遠端repo拉取image
 以openjdk為例，我們先瀏覽https://hub.docker.com/_/openjdk?tab=tags 看看有那些版本可以使用，例如我們要jdk11版
 - 執行
@@ -62,10 +67,14 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 openjdk             11.0.8-jre          270be31528bf        8 days ago          285MB
 hello-world         latest              bf756fb1ae65        9 months ago        13.3kB
 ```
+
 ### 刪除docker images
 用法為 docker image rm << REPOSITORY >>:<< Tag >>
+
 或是
- docker image rm << IMAGE ID >>，兩者的結果是一樣的
+
+docker image rm << IMAGE ID >>
+
 - 執行
 ```docker
 docker image rm openjdk:11.0.8-jre
