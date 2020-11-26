@@ -10,6 +10,8 @@
    例如我們可以使用ubuntu的image為基礎，自由地加上nginx, mysql等軟體，並編譯出一個符合自己需求的影像檔。
  - 編譯好的docker image是唯讀的
  
+Usage:  docker image COMMAND
+
 ## 常用指令 
 
 ### 查看本地的docker images

@@ -9,7 +9,10 @@
  - container關閉後不會自動刪除(除非另外指定--rm)，跟virtualbox關閉後不會刪除客層一樣
  - 在container裡執行的各種活動都不會影響啟動時使用的docker image，但可以利用docker container commit建立新的image
 
+Usage:  docker container COMMAND
+
 ## 常用指令 
+
 ### 查看本地的docker container
 - 執行
 ```docker
@@ -30,7 +33,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 adda35cae1b5        busybox             "sh"                15 seconds ago      Exited (0) 4 seconds ago                       optimistic_goldstine
 ```
 - 欄位說明
-  - CONTAINER ID: container的sha id
+  - CONTAINER ID: container的SHA Id
   - IMAGE: 這個container使用的image名稱
   - COMMAND: 啟動container時使用的指令
   - CREATED: 該image建立的時間
